@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <!-----custom css------>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-------media query link----------->
+    <link rel="stylesheet" href="./css/mediaQuery.css">
+</head>
+
+<body>
+
+
+    <!-----Sign in setion start------>
+    <div class="signin_section">
+        <div class="signin_wrapper">
+            <h2>SIGN IN</h2>
+
+            <form method="post" enctype="multipart/form-data" action="/process">
+                <input name="fname" type="text" placeholder="user name or email or password" />
+
+                <div class="disclaimer">
+                    <p class="terms_service">You have no account. Then please <b><a href="./index.html"
+                                style="color: teal; cursor: pointer;">Sign Up.</a></b></p>
+                </div>
+
+                <input type="submit" value="Sign In" class="button" />
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

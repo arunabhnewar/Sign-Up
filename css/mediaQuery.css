@@ -1,0 +1,110 @@
+/*=========extra large version=============*/
+@media only screen and (max-width: 1199px) {
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .wrapper, .signin_wrapper {
+        max-width: 580px;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .wrapper, .signin_wrapper {
+        max-width: 550px;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .wrapper, .signin_wrapper {
+        max-width: 500px;
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 576px)  {
+    .signup_section {
+        height: auto;
+    }
+
+    .wrapper, .signin_wrapper {
+        max-width: 450px;
+        width: 100%;
+        margin: 50px 0 30px;
+    }
+
+    .wrapper form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper h2, .signin_wrapper h2 {
+        color: teal;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    input, .signin_wrapper input {
+        max-width: 500px;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 470px) {
+    .wrapper, .signin_wrapper {
+        max-width: 360px;
+        width: 100%;
+        margin: 50px 0 30px;
+    }
+
+    .wrapper h2, .signin_wrapper h2 {
+        color: teal;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    input, .signin_wrapper input {
+        max-width: 400px;
+        width: 100%;
+    }
+} 
+
+
+@media only screen and (max-width: 425px)  {
+    .wrapper, .signin_wrapper {
+        max-width: 270px;
+        width: 100%;
+        margin: 50px 0 30px;
+    }
+
+    input, .signin_wrapper input  {
+        max-width: 220px;
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 375px)  {
+    .wrapper {
+        max-width: 240px;
+        width: 100%;
+        margin: 50px 0 30px;
+    }
+
+     input {
+        flex: 1;
+        outline: none;
+        margin: 20px 10px 0px 0px;
+        padding: 10px;
+        max-width: 180px;
+    }
+}

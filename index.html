@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up</title>
+
+    <!-----custom css------>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-------media query link----------->
+    <link rel="stylesheet" href="./css/mediaQuery.css">
+
+
+</head>
+
+<body>
+
+    <!-----Sign up setion start------>
+    <div class="signup_section">
+        <div class="wrapper">
+            <h2>CREATE AN ACCOUNT</h2>
+
+            <form method="post" enctype="multipart/form-data" action="/process">
+                <input name="fname" type="text" placeholder="First Name" />
+                <input name="lname" type="text" placeholder="Last Name" />
+                <input name="username" type="text" placeholder="User Name" />
+                <Input name="age" type="number" placeholder="Age" />
+                <Input name="email" type="email" placeholder="Email" />
+                <Input name="phone" type="number" placeholder="Phone" />
+                <Input name="password" type="password" placeholder="Password" />
+                <input name="pic" type="file" />
+
+                <div class="disclaimer">
+                    <p class="terms_service"> By creating an account, I agree to the <b
+                            style="color: teal; cursor: pointer;">Terms of
+                            Use</b> and <b style="color: teal; cursor: pointer;">Privacy
+                            Policy</b>. Have trouble
+                        Sign Up? <b style="color: teal; cursor: pointer;">Get Help</b>
+                    </p>
+
+                    <p class="terms_service">Or, You already have an account. Then please <b> <a href="./signin.html"
+                                style="color: teal; cursor: pointer;">Sign In.</a> </b></p>
+                </div>
+
+                <input type="submit" value="Sign Up" class="button" />
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
